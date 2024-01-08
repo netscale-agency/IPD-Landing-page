@@ -20,6 +20,10 @@
   margin-right: 10%;
 }
 
+.menu {
+  display: flex;
+}
+
 .navItem {
   margin-left: 20px;
   text-decoration: none;

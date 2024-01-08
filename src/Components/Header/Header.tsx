@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
+import HamburgerIcon from "../../Assets/hamburgerIcon.png";
 import Logo from "../../Assets/Logo.png";
 
 const Header: React.FC = () => {

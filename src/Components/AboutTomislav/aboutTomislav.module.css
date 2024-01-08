@@ -1,0 +1,105 @@
+.outerWrapper {
+  margin-left: 5%;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #0e1e00;
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+  letter-spacing: -0.72px;
+  margin: 0;
+  margin-top: 5%;
+}
+
+.text {
+  color: #4d4d4d;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.144px;
+  width: 40%;
+}
+
+.columnsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftColumn {
+  width: 40%;
+}
+
+.quote {
+  color: #4d4d4d;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.144px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  color: #0e1e00;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.144px;
+}
+.rightColumn {
+  width: 40%;
+}
+
+.TomislavImage {
+  width: 70%;
+}
+.statisticsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  width: 85%;
+}
+
+.statisticItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number {
+  color: #6db72c;
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+  letter-spacing: -0.72px;
+}
+.label {
+  color: #4d4d4d;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.144px;
+}
