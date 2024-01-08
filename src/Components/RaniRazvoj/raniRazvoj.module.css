@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: #ccedaf;
+  padding: 5%;
+}
+
+.leftColumn {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.raniRazvojImg {
+  max-width: 65%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.rightColumn {
+  width: 45%;
+  padding: 20px;
+}
+
+.heading {
+  color: #0e1e00;
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+  letter-spacing: -0.72px;
+  width: 80%;
+}
+
+.description {
+  color: #4d4d4d;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.144px;
+  width: 80%;
+}
+.subheading {
+  color: #0e1e00;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.2px;
+  margin-bottom: 20px;
+}
+.checkList {
+  width: 70%;
+}
+.checkItem {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.checkText {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.016px;
+}
+.checkmarkIcon {
+  margin-right: 10px;
+}
+
+.dividerWrapper {
+  display: flex;
+  margin-top: 50px;
+}
+
+.divider {
+  border: 1px solid #acca91;
+  background-color: transparent;
+  margin: 0;
+  width: 100%;
+}
+
+.enrollContainer {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.totalPrice {
+  color: #4d4d4d;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: -0.4px;
+}
+.totalPriceSecond {
+  color: #0e1e00;
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.payment {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 8px; /* 57.143% */
+}
+.enrollBtn {
+  border-radius: 8px;
+  background: #0e1e00;
+  color: #f8f9fb;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.016px;
+  border: none;
+  padding: 10px;
+  width: 40%;
+  margin-top: 5%;
+}

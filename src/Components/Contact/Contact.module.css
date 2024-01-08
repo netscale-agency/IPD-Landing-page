@@ -1,0 +1,127 @@
+.outerWrapper {
+  background: #eff6e5;
+}
+.contactForm {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.leftColumn {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subheading {
+  color: #a9a9a9;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
+.heading {
+  color: #0e1e00;
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+  letter-spacing: -0.72px;
+  margin: 0;
+}
+
+.paragraph {
+  color: #4d4d4d;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.144px;
+  width: 70%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.infoItem {
+  color: #3e8500;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.144px;
+  display: flex;
+  gap: 5px;
+}
+
+.rightColumn {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.submitBtn {
+  border-radius: 8px;
+  background: #6db72c;
+  color: #f8f9fb;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.016px;
+  border: none;
+  padding: 10px;
+  width: 30%;
+  margin-top: 5%;
+}
+
+.dividerWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.divider {
+  border: 1px solid #d1d9e2;
+  background-color: transparent;
+  margin: 0;
+  width: 80%;
+}
+
+.characterCount {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 80%;
+  color: var(--Gray-50, #5f6d7e);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.016px;
+}

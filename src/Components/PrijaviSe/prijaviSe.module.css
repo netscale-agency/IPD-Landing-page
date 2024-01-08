@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background: #ccedaf;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-left: 5%;
+}
+.rightColumn {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.laptopBckg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 40%;
+  right: -11%;
+}
+
+.laptopImg {
+  width: 65%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  right: -20%;
+}
+
+.subheading {
+  color: #3e8500;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
+.heading {
+  color: #0e1e00;
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+  letter-spacing: -0.72px;
+  width: 70%;
+}
+
+.text {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.016px;
+  margin-bottom: 5%;
+  width: 50%;
+}
+
+.enrollBtn {
+  border-radius: 8px;
+  background: #0e1e00;
+  color: #f8f9fb;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.016px;
+  border: none;
+  padding: 15px;
+  width: 35%;
+  margin-top: 5%;
+}
