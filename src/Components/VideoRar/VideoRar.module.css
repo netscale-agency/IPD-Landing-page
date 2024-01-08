@@ -1,0 +1,113 @@
+.outerWrapper {
+    background: #eff6e5;
+    padding: 5%;
+  }
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading {
+    color: #0e1e00;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 127.778% */
+    letter-spacing: -0.72px;
+    margin: 0;
+  }
+  .headingSecond {
+    color: #6db72c;
+  }
+  .text {
+    color: #4d4d4d;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.144px;
+    width: 50%;
+  }
+  
+  .columnsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftColumn {
+    width: 40%;
+  }
+  .videoRarImg {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  
+  .rightColumn {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .subheading {
+    color: #0e1e00;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.2px;
+    margin-bottom: 0;
+  }
+  .sectionText {
+    color: #4d4d4d;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.144px;
+  }
+  .checkItem {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .checkText {
+    color: #6db72c;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.144px;
+  }
+  .checkmarkIcon {
+    margin-right: 10px;
+  }
+  
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .button {
+    border-radius: 8px;
+    background: #6db72c;
+    color: #f8f9fb;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.016px;
+    border: none;
+    padding: 10px;
+    width: 15%;
+  }
+  

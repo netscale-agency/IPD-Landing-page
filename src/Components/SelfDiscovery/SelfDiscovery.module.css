@@ -1,0 +1,77 @@
+.container {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.leftColumn {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.subheading {
+  color: #a9a9a9;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
+.heading {
+  color: #0e1e00;
+  font-family: Noto Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.72px;
+  margin: 0;
+  width: 85%;
+}
+.headingSecond {
+  color: #6db72c;
+}
+
+.text {
+  color: #4d4d4d;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.144px;
+}
+.linkContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.moreInfoLink {
+  color: #6db72c;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 110% */
+  letter-spacing: -0.02px;
+  text-decoration: none;
+}
+
+.rightColumn {
+  width: 40%;
+}
+.imgContainer {
+  margin-top: 10%;
+}
+
+.SelfDiscoveryImg {
+  width: 70%;
+  border-radius: 20px;
+  background-color: #ccedaf;
+}

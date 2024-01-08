@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  margin-left: 5%;
+}
+
+.logoImg {
+  width: 60%;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 10%;
+}
+
+.navItem {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #4e4e4e;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}
+
+.button {
+  border-radius: 8px;
+  background: #6db72c;
+  color: #f8f9fb;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.016px;
+  border: none;
+  padding: 10px;
+}
