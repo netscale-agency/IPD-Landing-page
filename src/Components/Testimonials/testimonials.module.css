@@ -1,0 +1,127 @@
+.testimonialsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #f6f6f6;
+  height: 600px;
+}
+
+.leftColumn,
+.rightColumn {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.leftColumn {
+  margin-left: 5%;
+}
+.subheading {
+  color: #a9a9a9;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.heading {
+  color: #0e1e00;
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+  letter-spacing: -0.72px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+.headingSecond {
+  color: #6db72c;
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: -0.72px;
+}
+
+.text {
+  color: #4d4d4d;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.144px;
+  width: 50%;
+}
+
+.enrollBtn {
+  border-radius: 8px;
+  background: #6db72c;
+  color: #f8f9fb;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.016px;
+  border: none;
+  padding: 15px;
+  width: 35%;
+  margin-top: 5%;
+}
+
+.recommendationsContainer {
+  border-radius: 16px;
+  background: #fffefe;
+  box-shadow: 24px 25px 20px 0px rgba(14, 30, 0, 0.04);
+  width: 60%;
+  height: 350px;
+}
+
+.testimonialText {
+  color: #0e1e00;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: 0.18px;
+  margin-bottom: 5%;
+  height: 75px;
+  width: 95%;
+}
+.testimonialAuthor {
+  color: #6db72c;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.016px;
+  margin-bottom: 5%;
+}
+
+.imgContainer {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.testimonials {
+  margin-left: 10%;
+}
+
+.navigationArrows {
+  margin-left: 10%;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+.arrowBtn {
+  background: #f7f7f7;
+  outline: none;
+  border: none;
+}

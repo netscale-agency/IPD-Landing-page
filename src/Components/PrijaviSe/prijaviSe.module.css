@@ -13,6 +13,7 @@
   flex-direction: column;
   width: 45%;
   margin-left: 5%;
+  position: relative;
 }
 .rightColumn {
   width: 45%;
@@ -58,6 +59,7 @@
   line-height: 46px; /* 127.778% */
   letter-spacing: -0.72px;
   width: 70%;
+  margin-bottom: 5%;
 }
 
 .text {
@@ -69,6 +71,7 @@
   line-height: 24px; /* 150% */
   letter-spacing: -0.016px;
   margin-bottom: 5%;
+  margin-left: 5%;
   width: 50%;
 }
 
@@ -86,4 +89,11 @@
   padding: 15px;
   width: 35%;
   margin-top: 5%;
+}
+
+.stepsIcon {
+  position: absolute;
+  left: 0;
+  height: 225px;
+  bottom: 30%;
 }
