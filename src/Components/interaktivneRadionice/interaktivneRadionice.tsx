@@ -33,8 +33,8 @@ const InteraktivneRadionice: React.FC = () => {
       </div>
 
       <div className={styles.section}>
-        <div className={styles.imageContainer}>
-          <div className={styles.image}>
+        <div className={styles.imageContainerSecond}>
+          <div className={styles.imageSecond}>
             <img
               className={styles.img}
               src={interaktivneRadionice}
@@ -44,7 +44,7 @@ const InteraktivneRadionice: React.FC = () => {
           <img className={styles.overlaySecond} src={Rectangle} alt="overlay" />
         </div>
 
-        <div className={styles.content}>
+        <div className={styles.contentSecond}>
           <h2 className={styles.heading}>
             Vođene <span className={styles.headingSecond}>introspekcije</span>
           </h2>

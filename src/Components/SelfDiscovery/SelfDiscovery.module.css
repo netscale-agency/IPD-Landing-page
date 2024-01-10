@@ -1,5 +1,5 @@
 .container {
-  height: 600px;
+  height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;

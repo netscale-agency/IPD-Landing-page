@@ -125,3 +125,33 @@
   line-height: 24px; /* 150% */
   letter-spacing: -0.016px;
 }
+
+@media (max-width: 768px) {
+  .contactForm {
+    height: auto;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .leftColumn {
+    width: 95%;
+  }
+  .subheading {
+    margin-top: 10%;
+  }
+  .paragraph {
+    width: 90%;
+  }
+  .rightColumn {
+    width: 95%;
+  }
+  .submitBtn {
+    width: 95%;
+  }
+  .dividerWrapper {
+    display: none;
+  }
+  .characterCount {
+    width: 90%;
+  }
+}

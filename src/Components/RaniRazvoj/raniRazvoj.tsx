@@ -5,7 +5,7 @@ import checkmark from "../../Assets/CheckGreen.svg";
 
 const RaniRazvoj: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.raniRazvojContainer}>
       <div className={styles.leftColumn}>
         <img
           src={raniRazvojImage}

@@ -7,19 +7,19 @@ import InteraktivneRadionice from "../Components/interaktivneRadionice/interakti
 import RaniRazvoj from "../Components/RaniRazvoj/raniRazvoj";
 import PrijaviSe from "../Components/PrijaviSe/prijaviSe";
 import AboutTomislav from "../Components/AboutTomislav/aboutTomislav";
+import HeaderMobile from "../Components/Header/HeaderMobile";
 
 const Home: React.FC = () => {
   return (
     <div>
       <Header />
+      <HeaderMobile />
       <SelfDiscovery />
       <VideoRar />
       <RaniRazvoj />
       <AboutTomislav />
       <PrijaviSe />
-
       <InteraktivneRadionice />
-
       <Contact />
       <Footer />
     </div>
