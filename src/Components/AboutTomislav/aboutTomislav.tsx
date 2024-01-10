@@ -6,8 +6,8 @@ const AboutTomislav: React.FC = () => {
   return (
     <div className={styles.outerWrapper}>
       <div className={styles.headingContainer}>
-        <h2 className={styles.heading}>O Tomislavu Kuljišu</h2>
-        <p className={styles.text}>
+        <h2 className={styles.aboutHeading}>O Tomislavu Kuljišu</h2>
+        <p className={styles.aboutText}>
           Tomislav Kuljiš već više od desetljeća, zajedno sa svojim timom,
           razvija i provodi transformativne programe cjelovitog osobnog razvoja
           (Integral Personal Development - IPD), uključujući program RAR - Rani

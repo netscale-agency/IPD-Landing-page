@@ -16,6 +16,11 @@
   line-height: 40px;
   letter-spacing: -0.2px;
   width: 80%;
+  transition: border-bottom 0.3s ease;
+}
+
+.input:focus {
+  border-bottom: 2px solid #6db72c;
 }
 
 @media (max-width: 768px) {

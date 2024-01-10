@@ -91,7 +91,7 @@ const VideoRar: React.FC = () => {
         </div>
       </div>
       <div className={styles.btnContainer}>
-        <button className={styles.button}>Upiši se na program</button>
+        <button className={styles.videoRarButton}>Upiši se na program</button>
       </div>
     </div>
   );
