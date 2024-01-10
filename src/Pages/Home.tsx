@@ -9,6 +9,7 @@ import PrijaviSe from "../Components/PrijaviSe/prijaviSe";
 import AboutTomislav from "../Components/AboutTomislav/aboutTomislav";
 import Testimonials from "../Components/Testimonials/testimonials";
 import SadrzajPrograma from "../Components/SadrzajPrograma/sadrzajPrograma";
+import Faq from "../Components/FAQ/Faq";
 
 const Home: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const Home: React.FC = () => {
       <Testimonials />
       <InteraktivneRadionice />
       <PrijaviSe />
+      <Faq />
       <Contact />
       <Footer />
     </div>

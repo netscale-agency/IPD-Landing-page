@@ -30,3 +30,14 @@
 .paginationSpan {
   margin: 0 5px;
 }
+
+@media (max-width: 768px) {
+  .pagination {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10%;
+  }
+}

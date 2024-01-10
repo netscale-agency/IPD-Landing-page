@@ -97,7 +97,7 @@
   margin-top: 30px;
 }
 
-.button {
+.videoRarButton {
   border-radius: 8px;
   background: #6db72c;
   color: #f8f9fb;
@@ -110,4 +110,46 @@
   border: none;
   padding: 10px;
   width: 15%;
+  transition: background 0.3s ease;
+}
+
+.videoRarButton:hover {
+  background: #3e8500;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    color: #0e1e00;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.48px;
+  }
+  .headingSecond {
+    color: #6db72c;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.48px;
+  }
+  .text {
+    width: 80%;
+  }
+  .columnsWrapper {
+    flex-direction: column;
+  }
+  .leftColumn {
+    width: 100%;
+  }
+  .rightColumn {
+    width: 95%;
+  }
+  .videoRarButton {
+    width: 80%;
+  }
 }

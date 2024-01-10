@@ -49,4 +49,9 @@
   letter-spacing: -0.016px;
   border: none;
   padding: 10px;
+  transition: background 0.3s ease;
+}
+
+.headerBtn:hover {
+  background: #3e8500;
 }

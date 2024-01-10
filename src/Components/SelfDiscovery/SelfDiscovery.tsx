@@ -5,7 +5,7 @@ import greenArrow from "../../Assets/GreenArrowRight.svg";
 
 const SelfDiscovery: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.selfDiscoveryContainer}>
       <div className={styles.leftColumn}>
         <h3 className={styles.subheading}>Upoznavanje stvarnoga sebe</h3>
         <h2 className={styles.heading}>

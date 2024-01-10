@@ -97,6 +97,11 @@
   padding: 10px;
   width: 30%;
   margin-top: 5%;
+  transition: background 0.3s ease;
+}
+
+.submitBtn:hover {
+  background: #3e8500;
 }
 
 .dividerWrapper {
@@ -124,4 +129,17 @@
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: -0.016px;
+}
+
+@media (max-width: 768px) {
+  .contactForm {
+    height: auto;
+    flex-direction: column;
+  }
+  .leftColumn {
+    width: 95%;
+  }
+  .paragraph {
+    width: 100%;
+  }
 }

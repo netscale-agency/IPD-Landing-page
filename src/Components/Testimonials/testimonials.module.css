@@ -73,6 +73,11 @@
   padding: 15px;
   width: 35%;
   margin-top: 5%;
+  transition: background 0.3s ease;
+}
+
+.enrollBtn:hover {
+  background: #3e8500;
 }
 
 .recommendationsContainer {
@@ -124,4 +129,30 @@
   background: #f7f7f7;
   outline: none;
   border: none;
+}
+
+@media (max-width: 768px) {
+  .testimonialsContainer {
+    flex-direction: column;
+    height: auto;
+  }
+  .leftColumn,
+  .rightColumn {
+    width: 95%;
+  }
+  .heading,
+  .text {
+    width: 95%;
+  }
+  .enrollBtn {
+    width: 90%;
+  }
+  .recommendationsContainer {
+    width: 95%;
+    height: auto;
+    margin-top: 10px;
+  }
+  .testimonialText {
+    height: auto;
+  }
 }
