@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.heading {
+.aboutHeading {
   color: #0e1e00;
   font-family: Noto Sans;
   font-size: 36px;
@@ -19,7 +19,7 @@
   margin-top: 5%;
 }
 
-.text {
+.aboutText {
   color: #4d4d4d;
   font-family: Noto Sans;
   font-size: 16px;
@@ -102,4 +102,32 @@
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.144px;
+}
+
+@media (max-width: 768px) {
+  .aboutHeading {
+    font-size: 24px;
+  }
+  .aboutText {
+    width: 95%;
+  }
+  .columnsWrapper {
+    flex-direction: column;
+  }
+  .leftColumn {
+    width: 95%;
+  }
+  .quote {
+    width: 100%;
+  }
+  .rightColumn {
+    width: 95%;
+  }
+  .TomislavImage {
+    width: 95%;
+  }
+  .statisticsContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
 }

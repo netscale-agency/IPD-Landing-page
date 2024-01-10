@@ -1,4 +1,4 @@
-.container {
+.selfDiscoveryContainer {
   height: 600px;
   display: flex;
   flex-direction: row;
@@ -74,4 +74,30 @@
   width: 70%;
   border-radius: 20px;
   background-color: #ccedaf;
+}
+
+@media (max-width: 768px) {
+  .selfDiscoveryContainer {
+    height: auto;
+    flex-direction: column;
+  }
+  .leftColumn {
+    width: 95%;
+  }
+  .heading {
+    color: #0e1e00;
+    font-family: Noto Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.48px;
+    width: 95%;
+  }
+  .rightColumn {
+    width: 95%;
+  }
+  .SelfDiscoveryImg {
+    width: 100%;
+  }
 }

@@ -37,7 +37,7 @@
   letter-spacing: -0.24px;
 }
 
-.button {
+.headerBtn {
   border-radius: 8px;
   background: #6db72c;
   color: #f8f9fb;
@@ -49,4 +49,9 @@
   letter-spacing: -0.016px;
   border: none;
   padding: 10px;
+  transition: background 0.3s ease;
+}
+
+.headerBtn:hover {
+  background: #3e8500;
 }

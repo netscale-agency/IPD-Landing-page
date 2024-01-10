@@ -138,4 +138,9 @@
   padding: 10px;
   width: 40%;
   margin-top: 5%;
+  transition: background 0.3s ease;
+}
+
+.enrollBtn:hover {
+  background: #3e8500;
 }
