@@ -10,11 +10,13 @@ import AboutTomislav from "../Components/AboutTomislav/aboutTomislav";
 import Testimonials from "../Components/Testimonials/testimonials";
 import SadrzajPrograma from "../Components/SadrzajPrograma/sadrzajPrograma";
 import Faq from "../Components/FAQ/Faq";
+import HeaderMobile from "../Components/Header/HeaderMobile";
 
 const Home: React.FC = () => {
   return (
     <div>
       <Header />
+      <HeaderMobile />
       <SelfDiscovery />
       <VideoRar />
       <SadrzajPrograma />

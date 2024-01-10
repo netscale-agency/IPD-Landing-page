@@ -41,3 +41,33 @@
   height: fit-content;
   gap: 10px;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    height: auto;
+    flex-direction: column;
+  }
+  .menuContainer {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 20px;
+    margin-bottom: 8%;
+    margin-top: 10%;
+  }
+  .socialsContainer {
+    order: 2;
+    width: 95%;
+    justify-content: center;
+    margin-bottom: 8%;
+  }
+  .copyrightContainer {
+    order: 3;
+    width: 95%;
+    border-top: 1px solid #d1d9e2;
+  }
+  .copyrights {
+    margin-top: 5%;
+  }
+}

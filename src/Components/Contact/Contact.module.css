@@ -135,11 +135,28 @@
   .contactForm {
     height: auto;
     flex-direction: column;
+    margin-left: 5%;
+    margin-top: 5%;
   }
   .leftColumn {
     width: 95%;
   }
+  .subheading {
+    margin-top: 10%;
+  }
   .paragraph {
-    width: 100%;
+    width: 90%;
+  }
+  .rightColumn {
+    width: 95%;
+  }
+  .submitBtn {
+    width: 95%;
+  }
+  .dividerWrapper {
+    display: none;
+  }
+  .characterCount {
+    width: 90%;
   }
 }

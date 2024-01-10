@@ -1,4 +1,4 @@
-.container {
+.raniRazvojContainer {
   display: flex;
   justify-content: space-around;
   background: #ccedaf;
@@ -143,4 +143,58 @@
 
 .enrollBtn:hover {
   background: #3e8500;
+}
+
+@media (max-width: 768px) {
+  .raniRazvojContainer {
+    flex-direction: column;
+    padding: 2%;
+  }
+  .rightColumn {
+    width: 95%;
+    order: 1;
+  }
+  .leftColumn {
+    width: 95%;
+    order: 2;
+  }
+  .heading {
+    color: #0e1e00;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.48px;
+    width: 95%;
+  }
+  .description {
+    width: 95%;
+  }
+  .checkList {
+    width: 95%;
+  }
+  .checkItem {
+    color: #4d4d4d;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.016px;
+  }
+  .enrollContainer {
+    flex-direction: column;
+    width: 95%;
+  }
+  .priceContainer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .enrollBtn {
+    width: 100%;
+  }
+  .raniRazvojImg {
+    max-width: 85%;
+  }
 }
