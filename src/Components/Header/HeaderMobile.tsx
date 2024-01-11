@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./HeaderMobile.module.css";
 import HamburgerIcon from "../../Assets/hamburgerIcon.png";
 import Logo from "../../Assets/Logo.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const HeaderMobile: React.FC = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -29,24 +30,67 @@ const HeaderMobile: React.FC = () => {
       {isMenuVisible && (
         <div className={styles.menuContainer}>
           <div className={styles.menu}>
-            <a href="#" className={styles.navItem}>
+            <Link
+              to="oProgramu"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className={styles.navItem}
+            >
               O programu
-            </a>
-            <a href="#" className={styles.navItem}>
+            </Link>
+            <Link
+              to="sadrzaj"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className={styles.navItem}
+            >
               Sadržaj
-            </a>
-            <a href="#" className={styles.navItem}>
+            </Link>
+            <Link
+              to="benefiti"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className={styles.navItem}
+            >
               Benefiti
-            </a>
-            <a href="#" className={styles.navItem}>
+            </Link>
+            <Link
+              to="testimonials"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className={styles.navItem}
+            >
               Testimonials
-            </a>
-            <a href="#" className={styles.navItem}>
+            </Link>
+            <Link
+              to="faq"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className={styles.navItem}
+            >
               FAQ
-            </a>
-            <a href="#" className={styles.navItem}>
+            </Link>
+
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className={styles.navItem}
+            >
               Kontakt
-            </a>
+            </Link>
           </div>
 
           <button className={styles.headerBtn}>Upiši program</button>

@@ -65,6 +65,7 @@
   letter-spacing: 0.144px;
   width: 60%;
   height: 300px;
+  max-width: 80%;
 }
 
 .rightColumn {
@@ -102,7 +103,6 @@
 }
 
 @media (max-width: 768px) {
-  
   .sadrzajProgramaContainer {
     height: auto;
     flex-direction: column;

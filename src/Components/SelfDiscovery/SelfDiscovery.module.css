@@ -61,6 +61,7 @@
   line-height: 22px; /* 110% */
   letter-spacing: -0.02px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .rightColumn {

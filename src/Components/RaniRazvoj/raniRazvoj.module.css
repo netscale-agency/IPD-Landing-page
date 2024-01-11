@@ -139,6 +139,7 @@
   width: 40%;
   margin-top: 5%;
   transition: background 0.3s ease;
+  cursor: pointer;
 }
 
 .enrollBtn:hover {
