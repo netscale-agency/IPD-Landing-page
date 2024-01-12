@@ -18,15 +18,28 @@ const Home: React.FC = () => {
       <Header />
       <HeaderMobile />
       <SelfDiscovery />
-      <VideoRar />
-      <SadrzajPrograma />
-      <RaniRazvoj />
+      <div id="oProgramu">
+        <VideoRar />
+      </div>
+      <div id="sadrzaj">
+        <SadrzajPrograma />
+      </div>
+      <div id="benefiti">
+        <RaniRazvoj />
+      </div>
+
       <AboutTomislav />
-      <Testimonials />
+      <div id="testimonials">
+        <Testimonials />
+      </div>
       <InteraktivneRadionice />
       <PrijaviSe />
-      <Faq />
-      <Contact />
+      <div id="faq">
+        <Faq />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
